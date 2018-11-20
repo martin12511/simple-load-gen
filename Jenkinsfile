@@ -20,4 +20,3 @@ node {
                     subject: 'project build successful',
                     to: 'fuzak@moruzza.com'
        }        
-}
