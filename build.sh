@@ -1,6 +1,6 @@
 #!/bin/bash
 
-tar czvf load-gen.tar.gz .
+tar czvf dist/load-gen.tar.gz .
 
   
 echo "Failed"
