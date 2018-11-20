@@ -22,7 +22,7 @@ node('node') {
 
        stage('Build Docker'){
 
-            sh './Build.sh'
+            sh './build.sh'
        }
 
     //    stage('Deploy'){
