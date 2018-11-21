@@ -6,6 +6,7 @@ node {
 
    stage 'Setup'
         sh 'npm install'
+        sh './build.sh'
 
    stage 'Mocha test'
         sh './node_modules/mocha/bin/mocha'
