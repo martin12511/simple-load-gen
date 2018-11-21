@@ -1,6 +1,6 @@
 #!/bin/bash
 
-IS_FAILED=1
+IS_FAILED=0
 tar czvf dist/load-gen.tar.gz .
 IS_FAILED=$?
 
