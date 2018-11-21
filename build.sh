@@ -2,7 +2,9 @@
 
 IS_FAILED=0
 tar czvf dist/load-gen.tar.gz .
-IS_FAILED=$?
+#IS_FAILED=$?
+
+echo $IS_FAILED
 
 if [ $IS_FAILED -gt 0 ]
 then
