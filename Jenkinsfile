@@ -14,9 +14,9 @@ node {
         echo 'prune and cleanup'
         sh 'npm prune'
         sh 'rm node_modules -rf'
-        mail body: 'project build successful',
-                    from: 'fuzak@moruzza.com',
-                    replyTo: 'fuzak@moruzza.com',
-                    subject: 'project build successful',
-                    to: 'fuzak@moruzza.com'
+        // mail body: 'project build successful',
+        //             from: 'fuzak@moruzza.com',
+        //             replyTo: 'fuzak@moruzza.com',
+        //             subject: 'project build successful',
+        //             to: 'fuzak@moruzza.com'
        }        
